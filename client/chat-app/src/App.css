@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: .1rem .5rem;
+  width: 100%;
+}
+
+.App {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: .33rem;
+  max-width: 95vw;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: inherit;
+}
+
+.intro button {
+  font-size: 1.2rem;
+  padding: .25rem .5rem;
+  background-color: yellowgreen;
+  border-radius: .5vmin;
+  border: none;
+  margin-top: 1rem;
+}
+
+button:active {
+  scale: .98;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  gap: .33rem;
+}
+
+#cr {
+  background-color: rgb(126, 70, 209);
+}
+
+#room-no {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
